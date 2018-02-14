@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+  }
+  body { 
+              background-image: url("../images/NFL.png") ;
+              background-position: center center;
+              background-repeat:  no-repeat;
+              background-attachment: fixed;
+              background-size:  cover;
+              background-color: #999;
+  }
+  .board-game {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 84px/normal "Anton", Helvetica, sans-serif;
+    color: rgba(74,134,232,1);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 5px 5px 0 rgba(0,255,0,1) , 10px 10px 0 rgba(255,0,0,1) , 15px 14px 0 rgba(147,196,125,1) , 20px 20px 0 rgb(90,199,255) ;
+  }
+  .col-md-6 {
+      text-align: center;
+      color: WHITE;
+  }
